@@ -76,15 +76,16 @@ model.train(
     batch=16,
     device=0
 )
+```
 
-Output
+## Output
 
 - Bounding box visualization
 - Compliance labels
 - Violation count
 - Timestamped alert logs
 
-Applications
+## Applications
 
 - Construction sites
 - Mining
@@ -92,7 +93,7 @@ Applications
 - Oil & Gas
 - Smart City CCTV
 
-Performance
+## Performance
 Metric	Value
 mAP@0.5	> 90%
 Precision	> 92%
@@ -105,21 +106,18 @@ False positives	Helmet-colored objects
 Low-light errors	Night conditions
 🛠 Future Work
 
-Multi-PPE detection
+- Multi-PPE detection
+- Person-helmet tracking
+- Alert automation (Telegram/Email)
+- Edge deployment (Jetson / RK3588)
 
-Person-helmet tracking
-
-Alert automation (Telegram/Email)
-
-Edge deployment (Jetson / RK3588)
-
-📦 Requirements
+## Requirements
 ultralytics
 opencv-python
 torch
 numpy
 
-✨ Author
+## Author
 
 Axel Ivanda Tanjung
 Data Scientist – Industrial AI & Computer Vision
