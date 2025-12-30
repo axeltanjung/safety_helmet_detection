@@ -1,4 +1,4 @@
-# Safety Helmet Detection using YOLOv8
+# Safety Helmet Detection using YOLOv8s
 
 Real-time computer vision system for detecting **helmet compliance** in industrial and construction environments using **YOLOv8**.
 
