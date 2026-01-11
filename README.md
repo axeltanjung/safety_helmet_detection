@@ -40,7 +40,7 @@ This project introduces automated real-time helmet compliance monitoring.
 ---
 
 ## 🗂 Dataset Structure
-
+```
 datasets/
 ├── train/
 │ ├── images/
@@ -48,7 +48,7 @@ datasets/
 ├── val/
 │ ├── images/
 │ └── labels/
-
+```
 
 YOLO label format:
 
